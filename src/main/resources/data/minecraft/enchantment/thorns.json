@@ -3,17 +3,19 @@
     "translate": "enchantment.minecraft.thorns"
   },
   "max_level": 3,
+  "min_cost": {
+    "base": 10,
+    "per_level": 20
+  },
+  "max_cost": {
+    "base": 60,
+    "per_level": 20
+  },
   "weight": 1,
   "anvil_cost": 4,
   "slots": [
     "armor"
   ],
-  "supported_items": [
-    "#minecraft:enchantable/armor",
-    "minecraft:elytra"
-  ],
-  "primary_items": [
-    "#minecraft:enchantable/armor",
-    "minecraft:elytra"
-  ]
+  "supported_items": "minecraft:enchantable/armor",
+  "primary_items": "minecraft:enchantable/armor"
 }
