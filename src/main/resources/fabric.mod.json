@@ -1,19 +1,28 @@
 {
 	"schemaVersion": 1,
 	"id": "elytra-table-enchantment",
-	"version": "${version}",
+	"version": "${version}+fabric",
+    "environment": "*",
+    "depends": {
+      "fabricloader": ">=0.17.2",
+      "minecraft": "~1.21.8",
+      "java": ">=21",
+      "fabric-api": "*"
+    },
+    "suggests": {
+    },
 	"name": "Elytra Table Enchantment",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Enchant Elytra in Enchantment Table + Thorns and Protection",
 	"authors": [
-		"Me!"
+		"sourcels"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/project/elytra-table-enchantment",
+		"sources": "https://github.com/sourcels/elytra-table-enchantment-template",
+        "issues": "https://github.com/sourcels/elytra-table-enchantment-template/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/elytra-table-enchantment/icon.png",
-	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"com.shimaper.elytratench.ElytraTableEnchantment"
@@ -29,13 +38,13 @@
 			"environment": "client"
 		}
 	],
-	"depends": {
-		"fabricloader": ">=0.17.2",
-		"minecraft": "~1.21.8",
-		"java": ">=21",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
-	}
+    "custom": {
+      "modmenu": {
+        "links": {
+          "modmenu.discord": "",
+          "modmenu.donate": ""
+        },
+        "update_checker": true
+      }
+    }
 }

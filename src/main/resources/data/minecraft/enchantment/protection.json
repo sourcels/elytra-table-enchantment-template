@@ -1,0 +1,24 @@
+{
+  "description": {
+    "translate": "enchantment.minecraft.protection"
+  },
+  "max_level": 4,
+  "weight": 10,
+  "anvil_cost": 1,
+  "exclusive_set": [
+    "minecraft:fire_protection",
+    "minecraft:blast_protection",
+    "minecraft:projectile_protection"
+  ],
+  "slots": [
+    "armor"
+  ],
+  "supported_items": [
+    "#minecraft:enchantable/armor",
+    "minecraft:elytra"
+  ],
+  "primary_items": [
+    "#minecraft:enchantable/armor",
+    "minecraft:elytra"
+  ]
+}
